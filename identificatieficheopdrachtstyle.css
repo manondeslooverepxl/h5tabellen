@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, sans-serif;
+}
+table {
+    border: 2px solid #90e791;
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+    caption-side: bottom;
+}
+table td, table th {
+    border: 1px solid #90e791;
+    padding: 10px;
+    text-align: left;
+}
+
+table thead {
+    background-color: rgba(33, 62, 27, 0.94)
+}
+table tfoot {
+    background-color: #d8d2b0;
+}
+
+img {
+    width: 50px;
+}
+
