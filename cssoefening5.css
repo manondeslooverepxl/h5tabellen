@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url("assets/hout.jpg");
+}
+main section{
+    background-image: url("assets/witte-marmer.jpg");
+    border: 3px solid #4b0000;
+    padding: 10px 10px;
+    margin: 0 0 20px 0 ;
+    width: 800px;
+
+}
+main section h1, main section p{
+    color: #4b0000;
+}
+main table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 3px solid #4b0000;
+    width: 820px;
+}
+main table tr, main table td{
+    border: 2px solid #4b0000;
+}
+main table td:empty{
+    padding: 50px;
+
+}
+/* zwarte tiles */
+main table tr:nth-child(even) > td:nth-child(odd){
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+main table tr:nth-child(odd) > td:nth-child(even){
+    background-image: url("assets/zwarte-marmer.jpg")
+}
+/* witte tiles */
+main table tr:nth-child(even) > td:nth-child(even){
+    background-image: url("assets/witte-marmer.jpg");
+}
+main table tr:nth-child(odd) > td:nth-child(odd){
+    background-image: url("assets/witte-marmer.jpg")
+}
+/* stukken */
+img {
+    width: 30%;
+    padding: 20px;
+}

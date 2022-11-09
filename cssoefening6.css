@@ -1,0 +1,55 @@
+/*algemene opmaak*/
+*{
+    font-family: "Courier New", monospace;
+}
+header{
+    background-color: #000;
+    color: #FFF;
+    padding: 25px;
+}
+main{
+    margin: 50px;
+}
+/* Logo section */
+table, td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    table-layout: fixed;
+}
+
+#logo td{
+    width: 50%;
+    text-align: center;
+}
+#logo img{
+    width: inherit;
+    padding: 30px;
+}
+#logo tr:nth-child(1){
+    background-color: #DF0024;
+}
+#logo tr:nth-child(1) > td:nth-child(1){
+    background-color: #FFFFFF;
+}
+#logo tr:nth-child(2){
+    background-color: #F3C300;
+}
+#logo tr:nth-child(3){
+    background-color: #00AC9F;
+}
+#logo tr:nth-child(4){
+    background-color: #2E6DB4;
+}
+/*console and controller*/
+#consoleandcontroller img{
+    width: 100%;
+}
+/*controller*/
+#controller table{
+    width: 50%;
+}
+#controller thead th{
+    background-color: #F3C300;
+    padding: 10px 0;
+}
+
