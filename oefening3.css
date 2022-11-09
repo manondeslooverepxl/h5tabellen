@@ -2,7 +2,7 @@
     font-family: Calibri, sans-serif;
 }
 table {
-    border: 2px solid #000;
+    border: 5px solid #ffffff;
     border-collapse: collapse;
     width: 1000px;
     table-layout: fixed;
@@ -16,19 +16,25 @@ table td, table th {
 }
 
 table thead {
-    background-color: #051446;
+    background-color: #697ecd;
 }
 table tfoot {
-    background-color: #051446;
+    background-color: #3d5093;
 }
 
 table tbody tr:nth-child(odd) {
-    background-color: #90bae3;
+    background-color: #4675a3;
 }
 table tbody tr:nth-child(even) {
-    background-color: #6c9bdc;
+    background-color: #436899;
 }
 
 table body tr:first-child(odd) {
     background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
 }
